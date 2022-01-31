@@ -1,0 +1,173 @@
+*{ box-sizing: border-box;}
+
+body{ padding: 0; margin: 0;}
+
+.container { width: 1200px; margin: 0 auto;}
+
+.h1 { text-align: center; font-weight: bold; color: white; font-size: 30px; margin-top: 0; padding-top: 20px;}
+/***********************************************************************************************/
+
+.navbar { height: 0; position: relative; z-index: 2;}
+
+.navbar .container .navbar-flex{ display: flex;}
+
+.navbar .container .navbar-flex .brand { width: 40%;}
+
+.navbar .container .navbar-flex .collaspe{ width: 60%;}
+
+.navbar .container .navbar-flex .collaspe ul li { 
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.navbar .container .navbar-flex .collaspe ul li::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 19px;
+    width: 0px;
+    height:3px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.navbar .container .navbar-flex .collaspe ul li:hover::after{ width: 40px;}
+
+/**********************************************************************************/
+
+.header { background-image: url(../images/header.jpg); background-size: 100%; height:700px; position: relative; z-index: 1;}
+
+.header .header-overlay { 
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, transparent 20%, rgba(0,0,0,1) 100%);
+}
+
+.header .container .header-containt{ text-align: center; color: white; position: relative; left: 0; top: 150px;}
+
+.header .container .header-info h1{ margin: 0; font-weight: bold; font-size: 40px;}
+
+.header .container .header-info p { font-weight: bold; }
+
+.header .container .header-input input{ border:none; border-radius: 15px 0 0 15px; padding: 10px; width: 450px; margin-top: 30px;}
+
+.header .container .header-input button { 
+    border:none; 
+    border-radius:0 15px 15px 0; 
+    padding: 10px; 
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(55, 35, 87);
+    cursor: pointer;
+}
+
+.header svg { position: absolute; left: 0; bottom: 0; }
+
+/*******************************************************************************************************************/
+
+.offers{ background-color: #f5f5f5; }
+
+.offers .container { text-align: center; padding: 20px;}
+
+.offers .container button{ 
+    border: 0; 
+    background-color: rgb(47, 21, 61); 
+    color: white; 
+    font-weight: bold; 
+    border-radius: 15px; 
+    margin: 30px auto;
+    cursor: pointer;
+    padding: 12px;
+    letter-spacing: 2px;
+}
+
+.offers .container p{ color: rgb(104, 104, 104);}
+
+.offers .offers-containt { display: flex; padding-top: 25px;}
+
+.offers .offers-containt .offers-one { width: 25%; margin-right: 20px; cursor: pointer;}
+
+.offers .offers-containt .offers-one img { width: 278px; height: 150px; box-shadow: 3px 3px 3px 3px rgb(216, 214, 214); border-radius: 7px;}
+
+.offers .offers-containt .offers-one .offers-info h3 { margin-top: 0;}
+
+.offers .offers-containt .offers-one .offers-info { background-color: white; border-radius: 7px; padding-bottom: 5px;}
+
+/******************************************************************************************************************/
+
+.Advertisement { background-image: url(../images/travellino.jpg); background-size: 100%; background-attachment: fixed; padding: 30px 0;}
+
+.Advertisement .Advertisement-conraint .row { display: flex; }
+
+.Advertisement .Advertisement-conraint .row .Advertisement-one { 
+    width: 33,33333333333333%; 
+    background-color: white; 
+    color: black; 
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.Advertisement .Advertisement-conraint .row .Advertisement-two { 
+    width: 33,33333333333333%; 
+    background-color: white; 
+    color: black; 
+    margin-right: 30px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.Advertisement .Advertisement-conraint .row i { color: coral; }
+
+.Advertisement .Advertisement-conraint .row span { width: 20px; color: rgb(133, 133, 133);}
+
+/*****************************************************************************************************/
+
+.testemonials .container .h1 { color: black;}
+
+.testemonials .container p { text-align: center; color: rgb(92, 92, 92);}
+
+.testemonials .testemonials-containt { display: flex; padding: 30px 0;}
+
+.testemonials .testemonials-containt .testemonials-one { width: 33,3333333333%; text-align: center; margin-right: 50px;}
+
+.testemonials .testemonials-containt .testemonials-one img { width: 125px; border-radius: 50%;}
+
+.testemonials .testemonials-containt .testemonials-one p { color: rgb(92, 92, 92); width: 350px; padding: 10px;}
+
+.testemonials .container button {
+    border: 0; 
+    background-color: rgb(47, 21, 61); 
+    color: white; 
+    font-weight: bold; 
+    border-radius: 15px; 
+    cursor: pointer;
+    padding: 12px;
+    letter-spacing: 2px;
+    margin: 18px 500px;
+}
+
+hr { 
+    margin: 15px 50px;
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0,0,0,0) , rgba(0,0,0,.75) , rgba(0,0,0,0));
+}
+
+/************************************************************************************************************/
+
+.footer .container p { text-align: center; color: rgb(92, 92, 92);}
+
+.footer .container p span { color: rgb(47, 21, 61); font-weight: bold; }
