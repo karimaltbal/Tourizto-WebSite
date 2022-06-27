@@ -15,13 +15,14 @@ Here is a working live demo :  https://karimaltbal.github.io/Tourizto-WebSite/
 ## Site
 
 ### 1-Landing Page
-Consist of navbar and header:
 
+Consist of navbar and header:
+![1](https://user-images.githubusercontent.com/67224257/175884102-9278340d-b713-48ce-a74f-b36c24408f06.png)
 
 
 ### 2-Main Content
 
-![Uploading 2.png…]()
+![2](https://user-images.githubusercontent.com/67224257/175883959-272f8f10-0bcd-4aef-995d-d4ac36296462.png)
 
 
 ### 3-testimonials and Footer
