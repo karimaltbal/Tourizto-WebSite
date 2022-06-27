@@ -17,15 +17,11 @@ Here is a working live demo :  https://karimaltbal.github.io/Tourizto-WebSite/
 ### 1-Landing Page
 Consist of navbar and header:
 
-![Uploading 1.png…]()
-
-
 
 
 ### 2-Main Content
 
 ![Uploading 2.png…]()
-
 
 
 ### 3-testimonials and Footer
